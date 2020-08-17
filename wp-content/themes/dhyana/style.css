@@ -1,0 +1,337 @@
+/*
+Theme Name: Dhyana
+Theme URI: https://wpkoi.com/dhyana-wpkoi-wordpress-theme/
+Template: lalita
+Author: wpkoithemes
+Author URI: https://wpkoi.com
+Description: Dhyana is a child theme for Lalita WPKoi theme. You can find theme demos at wpkoi.com. Dhyana has a clean, black & white style and design for portfolio, business or agency content. The theme is multipurpose, so if You like the style, You can use it to represent Your art, business, an event, show Your portfolio, start a blog, start a webshop and sell Your products etc. The demos use Elementor, WooCommerce and Contact Form 7 plugins. The premium demo uses the Dhyana premium plugin also. Dhyana has an easy to use admin with a lot of customizer functions, so You can build Your dream without coding knowledge. The theme is responsive so looks good on almost every devices. You can setup multiple header styles, navigation styles and layouts. Build You site with Dhyana Theme and share it with the world! You can also find a documentation with an install guide and a tutorial for the screenshot look on wpkoi.com/docs.
+Version: 1.0.1
+Tested up to: 5.4.2
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dhyana
+Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, flexible-header, full-width-template, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images
+
+*/
+
+body {
+	background-color: #ffffff;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.nav-float-right .inside-header .site-branding,
+.nav-float-right .inside-header .site-logo,
+.nav-float-left .inside-header .site-branding,
+.nav-float-left .inside-header .site-logo {
+	border-right: 2px solid;
+	padding-right: 20px;
+    min-height: 55px;
+}
+
+.dhyana-logo-border-none.nav-float-right .inside-header .site-branding,
+.dhyana-logo-border-none.nav-float-right .inside-header .site-logo,
+.dhyana-logo-border-none.nav-float-left .inside-header .site-branding,
+.dhyana-logo-border-none.nav-float-left .inside-header .site-logo {
+	border-right: none;
+	padding-right: 20px;
+}
+
+header.site-header,
+.is_stuck.main-navigation {
+	border-bottom: 2px solid;
+}
+
+.dhyana-header-border-none header.site-header,
+.dhyana-header-border-none .is_stuck.main-navigation {
+	border-bottom: none;
+}
+
+.site-footer {
+	border-top: 2px solid #000;
+}
+
+.dhyana-header-border-none .site-footer {
+	border-top: none;
+}
+
+.lalita-side-left-content {
+	border: 2px solid #000;
+	border-left: none;
+}
+
+.dhyana-header-border-none .lalita-side-left-content {
+	border: none;
+	border-left: none;
+}
+
+.inside-top-bar {
+	padding: 5px 20px 2px;
+}
+
+.top-bar {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.inside-header {
+	padding: 0px 20px;
+}
+
+.main-title {
+	text-transform: none;
+	font-weight: 400;
+	font-size: 45px;
+}
+
+.main-navigation a {
+	font-weight: 700;
+	text-transform: none;
+	font-size: 22px;
+}
+
+.main-navigation .main-nav ul li a,
+.main-navigation .mobile-bar-items a,
+.menu-toggle {
+	padding-left: 9px;
+	padding-right: 9px;
+	line-height: 55px;
+}
+
+.menu-item-has-children .dropdown-menu-toggle {
+	padding-left: 9px;
+}
+
+button.menu-toggle:hover,
+button.menu-toggle:focus {
+	background-color: inherit;
+}
+
+.navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:focus::after,
+.navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:focus::before,
+.navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:hover::after,
+.navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:hover::before,
+.navigation-effect-stylea #site-navigation .main-nav ul li.menu-item.current-menu-item a::after,
+.navigation-effect-stylea #site-navigation .main-nav ul li.menu-item.current-menu-item a::before {
+	font-weight: 900;
+}
+
+.button,
+.woocommerce a.button,
+.woocommerce button.button {
+	padding: 12px 25px;
+	border: 2px solid;
+}
+
+.button,
+.button:visited,
+button:not(.menu-toggle),
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: 2px solid;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button,
+a.button:visited,
+header .main-navigation .main-nav ul li a.wpkoi-nav-btn {
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+a.button:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+a.button:focus,
+header .main-navigation .main-nav ul li a.wpkoi-nav-btn:hover {
+	transform: scale(1.1) rotate(4deg);
+}
+
+body:not(.mobile-header-logo) #mobile-header .menu-toggle {
+	transform: none !important;
+}
+
+.site-info {
+	font-size: 15px;
+	font-weight: 400;
+	padding: 10px 50px;
+}
+
+.lalita-back-to-top,
+.lalita-back-to-top:visited {
+	border-radius: 50px;
+	right: 10px;
+}
+
+.lalita-side-left-content {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 200px 0px 0px 0px;
+}
+
+.lalita-side-left-content .lalita-side-left-socials ul {
+	padding: 15px 4px;
+}
+
+.lalita-side-left-content .lalita-side-left-text {
+	padding: 4px 15px;
+}
+
+.page-header-blog-content-h,
+.page-header-blog-inner-img {
+	display: table-cell;
+	width: 49%;
+	padding: 0;
+	height: auto;
+	max-width: 100% !important;
+}
+
+.page-header-blog-inner-img {
+	border-right: 2px solid #000;
+}
+
+.page-header-blog-content-h .page-header-blog-content {
+	margin: 0;
+	text-align: left;
+	padding: 40px;
+}
+
+.page-header-blog-text,
+.page-header-blog-button {
+	display: block;
+	width: 100%;
+}
+
+.page-header-blog-content h2 {
+	font-size: 90px;
+	font-weight: 700;
+	padding: 0;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	text-shadow: none !important;
+}
+
+.page-header-blog-content p {
+	font-size: 22px;
+	font-weight: 400;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.page-header-blog-content a.button {
+	border-radius: 0;
+	margin-bottom: 10px;
+	text-transform: none;
+	font-weight: 400;
+}
+
+.page-header-blog {
+	padding: 0;
+	display: table;
+	border-bottom: 2px solid #000;
+}
+
+.page-header-blog-inner-img {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.site-footer .footer-widgets-container .inner-padding {
+	padding: 0 0 20px 40px;
+}
+
+.footer-widgets {
+	padding: 50px;
+}
+
+.widget-title {
+	font-weight: 400;
+}
+
+.footer-bar .lalita-social-bar {
+	float: right;
+}
+
+.footer-bar .lalita-socials-list li {
+	display: inline-block;
+	padding-left: 8px;
+}
+
+.elementor-page .screen-reader-text {
+	top: inherit;
+}
+
+.inside-navigation .search-form input[type="search"]:focus {
+	color: #333333 !important;
+}
+
+.post-type-archive-product.post-image-above-header.woocommerce-page .post-image {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	.page-header-blog-content-h h2 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 768px) {
+	.page-header-blog {
+		background-image: none !important;
+	}
+	.page-header-blog-image,
+	.page-header-blog-inner-img {
+		display: none;
+	}
+	.page-header-blog-content-h h2 {
+		font-size: 40px;
+		margin-top: 30px;
+	}
+	.page-header-blog-content-h p {
+		font-size: 22px;
+	}
+	.page-header-blog-content-h .page-header-blog-content,
+	.page-header-blog-image {
+		width: initial;
+		margin: 0;
+	}
+	.page-header-blog-content a.button {
+		margin-left: 0;
+	}
+	body {
+		padding: 0;
+	}
+	.lalita-side-left-cover,
+	.lalita-side-right-cover {
+		width: 0;
+	}
+	.footer-bar .widget,
+	.footer-bar .lalita-social-bar {
+		float: none;
+		margin: 0 10px;
+	}
+}
